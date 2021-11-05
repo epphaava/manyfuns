@@ -1,9 +1,11 @@
 <template>
   <div id="app">
+       <h1>ManyFuns application for you</h1>
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+      <router-link to="/about">About</router-link> |
+            <router-link :to="{ name: 'contact' }">Contact us</router-link> |
+            </div>
     <router-view />
   </div>
 </template>
