@@ -1,26 +1,31 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link> |
-    <router-link :to="{ name: 'contact' }">Contact us</router-link> |
+    <div class="links">
+      <router-link to="/">Home</router-link> |
+      <router-link to="/about">About</router-link> |
+      <router-link :to="{ name: 'contact' }">Contact us</router-link> |
+    </div>
     <router-view />
   </nav>
-</template> 
+</template>
 
 <script>
 export default {};
 </script>
 
 <style lang="scss">
+.links {
+  padding: 1.5%;
+}
 nav {
-  padding: 30px;
-
+  background-color: rgb(229, 236, 243);
+  padding: 0% 10% 0% 10%;
   a {
     font-weight: bold;
     color: #2c3e50;
 
     &.router-link-exact-active {
-      color: #42b983;
+      color: #376eb6;
     }
   }
 }

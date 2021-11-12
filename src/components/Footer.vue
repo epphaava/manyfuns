@@ -4,7 +4,7 @@
       {{ new Date().getFullYear() }} — <strong>ManyFuns</strong>
     </v-col>
     <v-col>
-      <router-link :to="{ name: 'contact' }">Contact us</router-link> |
+      <router-link :to="{ name: 'contact' }">Contact us</router-link>
     </v-col>
   </v-footer>
 </template>
@@ -17,15 +17,15 @@ export default {};
 v-footer {
   display: flex;
   justify-content: space-around;
-  background-color: rgb(201, 211, 231);
-  padding: 4px;
+  background-color: rgb(194, 203, 212);
+  padding: 1%;
 }
 a {
     font-weight: bold;
-    color: #03090f;
+    color: #2c3e50;
 
     &.router-link-exact-active {
-      color: #415d81;
+      color: #376eb6;
     }
   }
 </style>
