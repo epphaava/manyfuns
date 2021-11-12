@@ -10,7 +10,7 @@
     <div class="post_image"><img src="" alt=""></div>
     <div class="post_text"></div>
     <div class="thumb">
-      <img src="images/thumbsup vol4.png" alt="Thumbs up" />
+      <img src="" alt="Thumbs up" />
     </div>
   </div>
 
@@ -18,8 +18,6 @@
 <script>
 export default {
     name: "Post",
-    
-
     data: function(){
 
          
