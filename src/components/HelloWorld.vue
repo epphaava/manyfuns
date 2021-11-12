@@ -1,8 +1,8 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <post>
-    </post>
+    <postspage>
+    </postspage>
     <p>
       For a guide and recipes on how to configure / customize this project,<br />
       check out the
@@ -105,10 +105,10 @@
 </template>
 
 <script>
-import Post from "./Post.vue";
+import postspage from "./PostsPage.vue";
 
 export default {
-  components: { Post },
+  components: { postspage },
   name: "HelloWorld",
   props: {
     msg: String,
