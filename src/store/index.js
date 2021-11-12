@@ -1,6 +1,6 @@
 import Vue from "vue";
 import Vuex from "vuex";
-import posts from "posts.json";
+import posts from "/posts.json";
 
 Vue.use(Vuex);
 
