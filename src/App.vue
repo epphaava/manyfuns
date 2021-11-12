@@ -1,19 +1,20 @@
 <template>
   <div id="app">
-    <h1>ManyFuns application for you</h1>
     <my-header></my-header>
     <my-footer></my-footer>
+    <h1>ManyFuns application for you</h1>
+    
   </div>
 </template>
 
 <script>
-import Header from "./components/Header";
-import Footer from "./components/Footer";
+import header from "./components/Header";
+import footer from "./components/Footer";
 
 export default {
   components: {
-    "my-header": Header,
-    "my-footer": Footer,
+    'my-header': header,
+    'my-footer': footer,
   },
 };
 </script>

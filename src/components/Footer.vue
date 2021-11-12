@@ -10,7 +10,9 @@
 </template>
 
 <script>
-export default {};
+export default {
+  name:'my-footer'
+};
 </script>
 
 <style lang="scss">
