@@ -1,6 +1,8 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
+    <post>
+    </post>
     <p>
       For a guide and recipes on how to configure / customize this project,<br />
       check out the
@@ -103,7 +105,10 @@
 </template>
 
 <script>
+import Post from "./Post.vue";
+
 export default {
+  components: { Post },
   name: "HelloWorld",
   props: {
     msg: String,
