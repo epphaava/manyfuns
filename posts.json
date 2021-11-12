@@ -1,0 +1,85 @@
+{
+    "posts": [
+        {
+            "user": "Juku",
+            "date": "18.01.2021",
+            "profile_pic_src": "images/user.png",
+            "post_pic_src": "images/moon.jpg",
+            "post_title": "lähen kooli !",
+            "liked": true
+        },
+        {
+            "user": "Juku",
+            "date": "17.01.2021",
+            "profile_pic_src": "images/user.png",
+            "post_pic_src": "images/yoda.jpeg",
+            "post_title": "lähen kooli !",
+            "liked": true
+        }, 
+        {
+            "user": "Aadu",
+            "date": "16.01.2021",
+            "profile_pic_src": "images/user.png",
+            "post_pic_src": "images/news.jpg",
+            "post_title": "oi kui põnev!",
+            "liked": true
+        }, 
+        {
+            "user": "Juhan",
+            "date": "15.01.2021",
+            "profile_pic_src": "images/user.png",
+            "post_pic_src": "images/work.jpg",
+            "post_title": "oh, work is hard",
+            "liked": true
+        },
+        {
+            "user": "Mari",
+            "date": "15.01.2021",
+            "profile_pic_src": "images/user.png",
+            "post_pic_src": "images/sunflower.jpeg",
+            "post_title": "pretty flower",
+            "liked": true
+        },
+        {
+            "user": "Karin",
+            "date": "15.01.2021",
+            "profile_pic_src": "images/user.png",
+            "post_pic_src": "images/tiger.jpg",
+            "post_title": "that's scary",
+            "liked": true
+        },
+        {
+            "user": "Juhan",
+            "date": "15.01.2021",
+            "profile_pic_src": "images/user.png",
+            "post_pic_src": "images/brightside.jpg",
+            "post_title": "deep",
+            "liked": true
+        },
+        {
+            "user": "Aadu",
+            "date": "15.01.2021",
+            "profile_pic_src": "images/user.png",
+            "post_pic_src": "images/france.jpg",
+            "post_title": "nice trip",
+            "liked": true
+        },
+        {
+            "user": "Mari",
+            "date": "15.01.2021",
+            "profile_pic_src": "images/user.png",
+            "post_pic_src": "images/proposal.jpeg",
+            "post_title": "so happy!",
+            "liked": true
+        }, 
+        {
+            "user": "Karin",
+            "date": "15.01.2021",
+            "profile_pic_src": "images/user.png",
+            "post_pic_src": "images/colors.jpg",
+            "post_title": "this is pretty",
+            "liked": true
+        }
+        
+    ]
+}
