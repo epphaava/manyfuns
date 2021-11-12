@@ -7,7 +7,7 @@
       </div>
       <div class="date"><small>{{date}}</small></div>
     </div>
-    <div class="post_image"><img src="" alt="" /></div>
+    <div class="post_image"><img :src="require(post_pic_src)" alt="" /></div>
     <div class="post_text">{{post_title}}</div>
     <div class="thumb">
       <img src="" alt="Thumbs up" />

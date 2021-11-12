@@ -12,7 +12,7 @@
 <script>
 export default {
 
-  name:'my-header'
+  name:'mh'
 };
 </script>
 

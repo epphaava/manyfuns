@@ -1,20 +1,20 @@
 <template>
   <div id="app">
-    <my-header></my-header>
-    <my-footer></my-footer>
-    <h1>ManyFuns application for you</h1>
+    <Header/>
+    <HelloWorld/>
+    <Footer/>
+    
     
   </div>
 </template>
 
 <script>
-import header from "./components/Header";
-import footer from "./components/Footer";
-
+import Header from "./components/Header.vue";
+import Footer from "./components/Footer.vue";
 export default {
   components: {
-    'my-header': header,
-    'my-footer': footer,
+    Header,
+    Footer,
   },
 };
 </script>
@@ -41,9 +41,6 @@ export default {
 }
 </style>
 
-<script>
-export default{
-  name: 'app',
-}
-</script>
+
+
 
