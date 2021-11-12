@@ -37,7 +37,7 @@ export default {
   align-content: center;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
   border-radius: 1%;
-  background-color: #e1eff6;
+  background-color: rgb(229, 236, 243);
 }
 .post_header {
   display: flex;
