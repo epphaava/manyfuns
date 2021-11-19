@@ -11,11 +11,15 @@
 
 <style lang="scss">
 .contact {
+  min-height:70vh;
   background-color: white;
   padding: 5%;
   h1 {
-  font-size: 200%;
+  font-size: 350%;
   color: #3b5b7a;
+}
+p {
+  font-size: 120%;
 }
 }
 

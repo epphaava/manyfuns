@@ -13,7 +13,7 @@
     <div class="post_text">{{ post_title }}</div>
     <div class="thumb">
       <button v-on:click="likes += 1">
-        <img src="@/assets/thumbsup vol4.png" alt="Thumbs up" />
+        <img src="public/assets/thumbsup vol4.png" alt="Thumbs up" />
       </button>
 
       <div>{{ likes }}</div>
