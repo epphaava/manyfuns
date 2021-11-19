@@ -3,30 +3,41 @@
     <div class="post_header">
       <div class="user">
         <div class="icon"><img :src="profile_pic_src" alt="User icon" /></div>
-        <div class="name">{{user}}</div>
+        <div class="name">{{ user }}</div>
       </div>
-      <div class="date"><small>{{date}}</small></div>
+      <div class="date">
+        <small>{{ date }}</small>
+      </div>
     </div>
-    <div class="post_image"><img :src= "post_pic_src" alt="Post image" /></div>
-    <div class="post_text">{{post_title}}</div>
+    <div class="post_image"><img :src="post_pic_src" alt="Post image" /></div>
+    <div class="post_text">{{ post_title }}</div>
     <div class="thumb">
-      <img src="@/assets/thumbsup vol4.png" alt="Thumbs up" />
-      <div>{{likes}}</div>
+      <button v-on:click="likes += 1">
+        <img src="@/assets/thumbsup vol4.png" alt="Thumbs up" />
+      </button>
+
+      <div>{{ likes }}</div>
     </div>
   </div>
 </template>
 <script>
 export default {
-    name: "fun-post",
-    props : ["user","date","profile_pic_src","post_pic_src","post_title","likes"],
-    data: function(){
+  name: "fun-post",
+  props: [
+    "user",
+    "date",
+    "profile_pic_src",
+    "post_pic_src",
+    "post_title",
+    "likes",
+  ],
+  data: function () {
+    return {};
+  },
+  methods:{
 
-         
-          return  {
-           
-        };
-        
-    }
+    
+  }
 };
 </script>
 <style>

@@ -3,80 +3,80 @@
         {
             "user": "Juku",
             "date": "18.01.2021",
-            "profile_pic_src": "/assets/user.png",
-            "post_pic_src": "../assets/moon.jpg",
+            "profile_pic_src": "./assets/user.png",
+            "post_pic_src": "./assets/moon.jpg",
             "post_title": "lähen kooli !",
             "likes": 0
         },
         {
             "user": "Juku",
             "date": "17.01.2021",
-            "profile_pic_src": "../src/assets/user.png",
-            "post_pic_src": "./src/assets/yoda.jpeg",
+            "profile_pic_src": "./assets/user.png",
+            "post_pic_src": "./assets/yoda.jpeg",
             "post_title": "lähen kooli !",
             "likes": 0
         }, 
         {
             "user": "Aadu",
             "date": "16.01.2021",
-            "profile_pic_src": "src/assets/user.png",
-            "post_pic_src": "src/assets/news.jpg",
+            "profile_pic_src": "./assets/user.png",
+            "post_pic_src": "./assets/news.jpg",
             "post_title": "oi kui põnev!",
             "likes": 0
         }, 
         {
             "user": "Juhan",
             "date": "15.01.2021",
-            "profile_pic_src": "src/assets/user.png",
-            "post_pic_src": "src/assets/work.jpg",
+            "profile_pic_src": "./assets/user.png",
+            "post_pic_src": "./assets/work.jpg",
             "post_title": "oh, work is hard",
             "likes": 0
         },
         {
             "user": "Mari",
             "date": "15.01.2021",
-            "profile_pic_src": "src/assets/user.png",
-            "post_pic_src": "src/assets/sunflower.jpeg",
+            "profile_pic_src": "./assets/user.png",
+            "post_pic_src": "./assets/sunflower.jpeg",
             "post_title": "pretty flower",
             "likes": 0
         },
         {
             "user": "Karin",
             "date": "15.01.2021",
-            "profile_pic_src": "src/assets/user.png",
-            "post_pic_src": "src/assets/tiger.jpg",
+            "profile_pic_src": "./assets/user.png",
+            "post_pic_src": "./assets/tiger.jpg",
             "post_title": "that's scary",
             "likes": 0
         },
         {
             "user": "Juhan",
             "date": "15.01.2021",
-            "profile_pic_src": "src/assets/user.png",
-            "post_pic_src": "src/assets/brightside.jpg",
+            "profile_pic_src": "./assets/user.png",
+            "post_pic_src": "./assets/brightside.jpg",
             "post_title": "deep",
             "likes": 0
         },
         {
             "user": "Aadu",
             "date": "15.01.2021",
-            "profile_pic_src": "src/assets/user.png",
-            "post_pic_src": "src/assets/france.jpg",
+            "profile_pic_src": "./assets/user.png",
+            "post_pic_src": "./assets/france.jpg",
             "post_title": "nice trip",
             "likes": 0
         },
         {
             "user": "Mari",
             "date": "15.01.2021",
-            "profile_pic_src": "src/assets/user.png",
-            "post_pic_src": "src/assets/proposal.jpeg",
+            "profile_pic_src": "./assets/user.png",
+            "post_pic_src": "./assets/proposal.jpeg",
             "post_title": "so happy!",
             "likes": 0
         }, 
         {
             "user": "Karin",
             "date": "15.01.2021",
-            "profile_pic_src": "src/assets/user.png",
-            "post_pic_src": "src/assets/colors.jpg",
+            "profile_pic_src": "./assets/user.png",
+            "post_pic_src": "./assets/colors.jpg",
             "post_title": "this is pretty",
             "likes": 0
         }
