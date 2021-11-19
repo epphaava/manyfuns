@@ -2,12 +2,12 @@
   <div class="post">
     <div class="post_header">
       <div class="user">
-        <div class="icon"><img src="" /></div>
+        <div class="icon"><img :src="`${profile_pic_src}`" /></div>
         <div class="name">{{user}}</div>
       </div>
       <div class="date"><small>{{date}}</small></div>
     </div>
-    <div class="post_image"><img :src="require(post_pic_src)" alt="" /></div>
+    <div class="post_image"><img :src="`${post_pic_src}`" alt="" /></div>
     <div class="post_text">{{post_title}}</div>
     <div class="thumb">
       <img src="" alt="Thumbs up" />
