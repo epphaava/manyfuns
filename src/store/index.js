@@ -17,15 +17,14 @@ export default new Vuex.Store({
       let altered = postList.map(post => {
         id++;
         return {
-          id:id,
+          id: id,
           user: post.user,
           date: post.date,
           profile_pic_src: post.profile_pic_src,
           post_pic_src: post.post_pic_src,
           post_title: post.post_title,
-          liked: post.liked
-
-        }
+          likes: post.likes,
+        };
       })
 
       console.log(altered);

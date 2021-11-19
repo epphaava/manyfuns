@@ -3,18 +3,18 @@
         {
             "user": "Juku",
             "date": "18.01.2021",
-            "profile_pic_src": "./src/assets/user.png",
-            "post_pic_src": "./src/assets/moon.jpg",
+            "profile_pic_src": "/assets/user.png",
+            "post_pic_src": "../assets/moon.jpg",
             "post_title": "lähen kooli !",
-            "liked": true
+            "likes": 0
         },
         {
             "user": "Juku",
             "date": "17.01.2021",
-            "profile_pic_src": "./src/assets/user.png",
+            "profile_pic_src": "../src/assets/user.png",
             "post_pic_src": "./src/assets/yoda.jpeg",
             "post_title": "lähen kooli !",
-            "liked": true
+            "likes": 0
         }, 
         {
             "user": "Aadu",
@@ -22,7 +22,7 @@
             "profile_pic_src": "./src/assets/user.png",
             "post_pic_src": "./src/assets/news.jpg",
             "post_title": "oi kui põnev!",
-            "liked": true
+            "likes": 0
         }, 
         {
             "user": "Juhan",
@@ -30,7 +30,7 @@
             "profile_pic_src": "./src/assets/user.png",
             "post_pic_src": "./src/assets/work.jpg",
             "post_title": "oh, work is hard",
-            "liked": true
+            "likes": 0
         },
         {
             "user": "Mari",
@@ -38,7 +38,7 @@
             "profile_pic_src": "./src/assets/user.png",
             "post_pic_src": "./src/assets/sunflower.jpeg",
             "post_title": "pretty flower",
-            "liked": true
+            "likes": 0
         },
         {
             "user": "Karin",
@@ -46,7 +46,7 @@
             "profile_pic_src": "./src/assets/user.png",
             "post_pic_src": "./src/assets/tiger.jpg",
             "post_title": "that's scary",
-            "liked": true
+            "likes": 0
         },
         {
             "user": "Juhan",
@@ -54,7 +54,7 @@
             "profile_pic_src": "./src/assets/user.png",
             "post_pic_src": "./src/assets/brightside.jpg",
             "post_title": "deep",
-            "liked": true
+            "likes": 0
         },
         {
             "user": "Aadu",
@@ -62,7 +62,7 @@
             "profile_pic_src": "./src/assets/user.png",
             "post_pic_src": "./src/assets/france.jpg",
             "post_title": "nice trip",
-            "liked": true
+            "likes": 0
         },
         {
             "user": "Mari",
@@ -70,7 +70,7 @@
             "profile_pic_src": "./src/assets/user.png",
             "post_pic_src": "./src/assets/proposal.jpeg",
             "post_title": "so happy!",
-            "liked": true
+            "likes": 0
         }, 
         {
             "user": "Karin",
@@ -78,7 +78,7 @@
             "profile_pic_src": "./src/assets/user.png",
             "post_pic_src": "./src/assets/colors.jpg",
             "post_title": "this is pretty",
-            "liked": true
+            "likes": 0
         }
         
     ]

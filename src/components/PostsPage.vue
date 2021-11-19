@@ -7,7 +7,7 @@
              v-bind:profile_pic_src="item.profile_pic_src"
              v-bind:post_pic_src="item.post_pic_src"
              v-bind:post_title="item.post_title"
-             v-bind:liked="item.liked">
+             v-bind:likes="item.likes">
     </funpost>
 </div>
 
