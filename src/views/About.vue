@@ -2,7 +2,7 @@
   <div class="about">
     <h1>This is an about page</h1>
     <p>We are so many funs!</p>
-    <img id="fun" src="assets/fun.png" alt="serious fun">
+    <img id="fun" src="@/assets/fun.png" alt="serious fun">
   </div>
 </template>
 

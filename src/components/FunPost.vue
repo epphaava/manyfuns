@@ -12,8 +12,8 @@
     <div class="post_image"><img :src="post_pic_src" alt="Post image" /></div>
     <div class="post_text">{{ post_title }}</div>
     <div class="thumb">
-      <button v-on:click="likes += 1">
-        <img src="public/assets/thumbsup vol4.png" alt="Thumbs up" />
+      <button v-on:click="Like(id)">
+        <img src="@/assets/thumbsup vol4.png" alt="Thumbs up" />
       </button>
 
       <div>{{ likes }}</div>
@@ -24,6 +24,7 @@
 export default {
   name: "fun-post",
   props: [
+    "id",
     "user",
     "date",
     "profile_pic_src",
@@ -32,11 +33,15 @@ export default {
     "likes",
   ],
   data: function () {
-    return {};
+    return {
+      rid :this.id
+    };
   },
   methods:{
 
-    
+    Like(id){
+        this.$store.dispatch('AddLikeAct',{id})
+    }
   }
 };
 </script>
