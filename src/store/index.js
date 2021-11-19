@@ -8,8 +8,44 @@ export default new Vuex.Store({
   state: {
     postList: posts,
   },
-  mutations: {},
-  actions: {},
+  mutations: {
+    AddLikeMut(state, id) {
+      state.postList.posts[id.id].likes++
+
+
+
+
+
+
+
+    },
+
+    ResetLikesMut(state) {
+      state.postList.posts.forEach(element => {
+        element.likes = 0;
+      });
+
+
+
+    },
+
+
+  },
+  actions: {
+    AddLikeAct: (act, id) => {
+
+      act.commit('AddLikeMut', id)
+
+    },
+
+    ResetLikesAct: (act) => {
+
+      act.commit('ResetLikesMut')
+
+    }
+
+
+  },
   getters: {
     getPostList: state => {
       let id = -1;
@@ -27,13 +63,13 @@ export default new Vuex.Store({
         };
       })
 
-      console.log(altered);
+      //console.log(altered);
 
 
       return altered
 
 
-      
+
     }
   },
 
