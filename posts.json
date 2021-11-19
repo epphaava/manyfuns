@@ -70,13 +70,8 @@
             "profile_pic_src": "src/assets/user.png",
             "post_pic_src": "src/assets/proposal.jpeg",
             "post_title": "so happy!",
-<<<<<<< HEAD
-            "liked": true
-        },
-=======
             "likes": 0
         }, 
->>>>>>> 5ec72a9878401ff55be26bf510d86bb1d6bea8b4
         {
             "user": "Karin",
             "date": "15.01.2021",
