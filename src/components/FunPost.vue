@@ -2,22 +2,23 @@
   <div class="post">
     <div class="post_header">
       <div class="user">
-        <div class="icon"><img :src="`${profile_pic_src}`" /></div>
+        <div class="icon"><img :src="profile_pic_src" alt="User icon" /></div>
         <div class="name">{{user}}</div>
       </div>
       <div class="date"><small>{{date}}</small></div>
     </div>
-    <div class="post_image"><img :src="`${post_pic_src}`" alt="" /></div>
+    <div class="post_image"><img :src= "post_pic_src" alt="Post image" /></div>
     <div class="post_text">{{post_title}}</div>
     <div class="thumb">
-      <img src="" alt="Thumbs up" />
+      <img src="@/assets/thumbsup vol4.png" alt="Thumbs up" />
+      <div>{{likes}}</div>
     </div>
   </div>
 </template>
 <script>
 export default {
     name: "fun-post",
-    props : ["user","date","profile_pic_src","post_pic_src","post_title","liked"],
+    props : ["user","date","profile_pic_src","post_pic_src","post_title","likes"],
     data: function(){
 
          
@@ -75,6 +76,11 @@ export default {
   margin: 3%;
   font-family: "Courier New", Courier, monospace;
   font-weight: bold;
+}
+.thumb {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 .thumb img {
   width: 10%;
