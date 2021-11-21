@@ -12,9 +12,7 @@
     <div class="post_image"><img :src="post_pic_src" alt="Post image" /></div>
     <div class="post_text">{{ post_title }}</div>
     <div class="thumb">
-      <button v-on:click="Like(id)">
-        <img src="@/assets/thumbsup vol4.png" alt="Thumbs up" />
-      </button>
+        <img src="@/assets/thumbsup vol4.png" v-on:click="Like(id)" alt="Thumbs up" />
 
       <div>{{ likes }}</div>
     </div>
