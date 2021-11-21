@@ -1,8 +1,11 @@
 <template>
   <div>
+    <button v-on:click="resetLikes"></button>
 
 <div id="page" v-for="item in this.postList" :key="item.id">
-    <funpost v-bind:user="item.user"
+    <funpost 
+            v-bind:id="item.id"
+            v-bind:user="item.user"
              v-bind:date="item.date"
              v-bind:profile_pic_src="item.profile_pic_src"
              v-bind:post_pic_src="item.post_pic_src"
@@ -36,7 +39,18 @@ export default {
 
     computed: {
         postList(){return this.$store.getters.getPostList}
+    },
+
+    methods:{
+
+      resetLikes(){
+
+        this.$store.dispatch('ResetLikesAct')
+
+      }
     }
+
+    
 
 }
 </script>
