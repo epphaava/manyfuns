@@ -14,10 +14,6 @@ export default new Vuex.Store({
 
 
 
-
-
-
-
     },
 
     ResetLikesMut(state) {
